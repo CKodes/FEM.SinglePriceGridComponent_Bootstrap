@@ -1,0 +1,170 @@
+body,
+html {
+    background-color: #E6EFF7;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.holder {
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10% 25%;
+    width: 100vw;
+}
+
+.row-holder {
+    box-shadow: 1.5px 1.5px 30px #888;
+}
+
+/* Community */
+.top {
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    color: hsl(179, 62%, 43%);
+    padding: 5%;
+}
+
+.top-col {
+    padding: 0;
+}
+
+.top-title {
+    font-weight: 700;
+}
+
+.top-subtitle {
+    color: hsl(71, 73%, 54%);
+    font-weight: 400;
+    padding: 25px 0 15px 0;
+}
+
+.top-desc {
+    color: hsl(218, 22%, 67%);
+    margin: 0;
+}
+
+/* Subscription */
+.subsc {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+    padding: 5%;
+}
+
+.subsc-desc {
+    margin: 10px 0 15px 0;
+}
+
+.price-text,
+.price {
+    display: inline-block;
+}
+
+.price p,
+.price-text p {
+    margin: 0;
+}
+
+.price-text{
+    color: rgb(255, 255, 255, 0.6);
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.signup {
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    margin-top: 30px;
+}
+
+.signup:hover {
+    background-color: white;
+    color: hsl(71, 73%, 54%);
+}
+
+/* Why */
+.why {
+    background-color: #49BEBD;
+    border-radius: 0 0 10px 0;
+    padding: 5%;
+}
+
+.why-desc {
+    margin: 25px 0 16px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin: 3%;
+    color: hsl(179, 86%, 25%);
+}
+
+.solution {
+    display: inline-block;
+}
+
+a {
+    color: hsl(218, 22%, 67%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: salmon;
+}
+
+@media (max-width: 1140px) {
+
+    .holder {
+        overflow-y: auto;
+    }
+
+    .subsc,
+    .why {
+        width: 100%;
+    }
+
+    .subsc {
+        border-radius: 0px;
+    }
+
+    .why {
+        border-radius: 0 0 10px 10px;
+    }
+
+}
+
+@media (max-width: 555px) {
+    .holder {
+        padding: 10% 10%;
+    }
+
+    .top,
+    .subsc,
+    .why {
+        padding: 10%;
+    }
+
+    .top-title {
+        font-size: 1.35rem;
+    }
+
+    .top-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .top-desc {
+        font-size: 0.88em;
+        line-height: 2;
+    }
+}
