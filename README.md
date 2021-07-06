@@ -37,7 +37,7 @@ Users should be able to:
 ### Continued development
 
 - Refactor code. I feel like there is too many CSS.
-- Submit a solution without Bootstrap. [Status Completed](https://github.com/CKodes/FEM.SingePriceGridComponent) 
+- Submit a solution without Bootstrap. [Status Completed](https://ckodes.github.io/FEM.SinglePriceGridComponent/) 
 
 ### Useful resources
 
