@@ -37,7 +37,7 @@ Users should be able to:
 ### Continued development
 
 - Refactor code. I feel like there is too many CSS.
-- Submit a solution without Bootstrap.
+- Submit a solution without Bootstrap. [Status Completed](https://github.com/CKodes/FEM.SingePriceGridComponent) 
 
 ### Useful resources
 
@@ -50,4 +50,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-Thank you to Dr. Angela Yu of [The App Brewery](https://www.appbrewery.co/) for [The Complete 2021 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) course and for introducing Frontend Mentor as a means to hone FE dev skills. This is my first Frontend Mentor challenge, and it was attempted after completing Lecture 84 - Media Query Breakpoints.
+Thank you to Dr. Angela Yu of [The App Brewery](https://www.appbrewery.co/) for [The Complete 2021 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) course and for introducing Frontend Mentor as a means to hone FE dev skills. This is my second Frontend Mentor challenge, and it was attempted after completing Lecture 84 - Media Query Breakpoints.
